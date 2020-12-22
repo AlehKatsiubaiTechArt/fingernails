@@ -1,0 +1,61 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  height: 100%;
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+  &>h2 {
+    font-size: 60px;
+    text-align: center;
+    padding: 0 50px;
+    flex: 50% 1 1;
+    pointer-events: all;
+  }
+
+  .manicure {}
+
+  .webinar {}
+}
+
+.particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.background {
+  width: 100%;
+  height: 100vh;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: auto 75%;
+}
+
+.grass {
+  width: 100%;
+  height: 60px;
+  background-image: url('../public/images/grass.svg');
+  background-position: bottom center;
+  background-repeat: repeat-x;
+  background-size: auto 75%;
+  margin-top: -70px;
+}
+
+.footer {
+  height: 100px;
+  background-color: #947960;
+}
